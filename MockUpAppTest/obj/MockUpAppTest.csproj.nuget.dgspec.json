@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\luthfi.mis\\Documents\\Visual Studio 2022\\Projects\\MockUpAppTest\\MockUpAppTest\\MockUpAppTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\luthfi.mis\\Documents\\Visual Studio 2022\\Projects\\MockUpAppTest\\MockUpAppTest\\MockUpAppTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luthfi.mis\\Documents\\Visual Studio 2022\\Projects\\MockUpAppTest\\MockUpAppTest\\MockUpAppTest.csproj",
+        "projectName": "MockUpAppTest",
+        "projectPath": "C:\\Users\\luthfi.mis\\Documents\\Visual Studio 2022\\Projects\\MockUpAppTest\\MockUpAppTest\\MockUpAppTest.csproj",
+        "packagesPath": "C:\\Users\\luthfi.mis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luthfi.mis\\Documents\\Visual Studio 2022\\Projects\\MockUpAppTest\\MockUpAppTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luthfi.mis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            },
+            "MySql.Web": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
